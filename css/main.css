@@ -351,4 +351,65 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /* ========== Desktop Styles ========== */
+
+  /* ------ General Styles ------ */
+  .content-wrapper {
+    max-width: 960px;
+  }
+  /* --- Header --- */
+  header {
+    margin: 15px 0;
+  }
+
+  header figure {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-around;
+  }
+
+  /* --- Hero Area--- */
+  .hero-area h1 {
+    width: 45%;
+  }
+  /* --- Aside --- */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* --- Features --- */
+  .features h2 {
+    width: 56%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* --- Reviews --- */
+  .reviews article div {
+    width: 38%;
+  }
+
+  /* =============================================
+   About Page
+   =============================================== */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 45%;
+  }
+
+  /* =============================================
+   FAQ Page
+   =============================================== */
+  .faq h2 {
+    width: 100%;
+  }
 }
